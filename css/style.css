@@ -234,7 +234,7 @@ ul.social-share li {
 ul.social-share li a {
   display: inline-block;
   color: #fff;
-  background: #404040;
+  background: #449cf2;
   width: 25px;
   height: 25px;
   line-height: 25px;
@@ -243,7 +243,7 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-  background: #E8CE0E;
+  background: #ee4b28;
   color: #fff;
 }
 
