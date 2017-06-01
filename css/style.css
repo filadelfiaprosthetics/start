@@ -31,8 +31,8 @@ h6 {
 }
 
 h1{
-  font-size: 36px;
-  color:#fff;
+  font-size: 30px;
+  color:#449cf2;
 }
 
 h2{
@@ -97,7 +97,7 @@ hr {
 
 a:hover,
 a:focus {
-  color: #000;
+  color: #d43133;
   text-decoration: none;
   outline: none;
 }
@@ -1543,7 +1543,7 @@ textarea#message{
 }
 
 .widget h3 {
-  color: #000;
+  color: #d43133;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -1693,7 +1693,7 @@ ul.faq li > div h3 {
 
 .blog .blog-item .blog-content h2 {
   margin-top: 0;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .readmore{
