@@ -36,7 +36,16 @@
     </script>
    <link rel="shortcut icon" href="images/a5.ico">
   </head>
-  <body class="homepage"> 
+  <body class="homepage">
+  <!--send buttom-->
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
   <!--boton seguir-->
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -303,8 +312,13 @@
                    
                     <ul class="pull-left">
                         <li><div class="fb-follow" data-href="https://www.facebook.com/Filadelfia-Center-for-Prosthetics-Cochabamba-Bolivia-1283391168359282/" data-layout="standard" data-size="small" data-show-faces="true"></div></li>
+                        <li>
+                            <div class="fb-send" data-href="https://filadelfiaprosthetics.github.io/start/index.html">
+                         </div>
+                        </li>
                                            
                     </ul>
+                    
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
